@@ -159,6 +159,13 @@ main {
 } .main-article .banner-image {
     border-bottom: 1px solid #eee;
     padding: 0 0.2rem 0.5rem;
+} .main-article a {
+    text-decoration: underline hotpink wavy !important;
+    border: none;
+    font-weight: bold;
+} .main-article a:visited {
+    color: purple;
+    text-decoration: none !important;
 }
 
 @media (max-width: 1200px) {
